@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.explore-cartoon{
+    margin-top: 50px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.explore-cartoon img{
+    border-bottom: 1px solid black;
+    min-height: 70%;
+    min-width: 100%;
+    width: 100%;
+    height: 70%;
+}
+.list-item{
+    border: 1px solid black;
+    background-color: rgb(233, 236, 250);
+}
+.list-item a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 2em;
+}
+.list-item h4{
+    font-size: 1rem;
+    padding: 5px 20px 0px 20px;
+    object-fit: contain;
+}
+.head{
+    text-align: center;
+    padding: 1.7em;
+    padding-bottom: 1,5em;
+    font-size: 1.3em;
+}
+@media (max-width:420px) {
+    .explore-cartoon{
+        margin-top: 30px ;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        padding: 1px;
+    }
+}

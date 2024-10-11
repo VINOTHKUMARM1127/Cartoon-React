@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Foot{
+    color: rgb(0, 0, 0);
+    border-top: 1px solid black;
+    background-color: rgb(196, 204, 247);
+    display: block;
+    font-size: 1.1rem;
+    padding: 2em;
+    text-align: center;
+}
+.Foot h3{
+    padding-bottom: 1rem;
+    font-size: 1.1em;
+}
+.Foot h5{
+    font-size: .7em;
+}
